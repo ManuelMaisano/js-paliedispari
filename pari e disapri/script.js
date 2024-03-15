@@ -1,9 +1,6 @@
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 //Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 // funzione per generare un numero random preso da w3school
-//function getRndInteger(min, max) {
-//    return Math.floor(Math.random() * (max - min + 1) ) + min;
-// }
 //Sommiamo i due numeri
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 //Dichiariamo chi ha vinto.
@@ -37,5 +34,28 @@ console.log(resultNumbers);
 const resultEvenOrOdd = evenOrOdd(resultNumbers)
 console.log(resultEvenOrOdd);
 
-const winOrLoseMessage = userWinOrLose (userChoice, resultEvenOrOdd)
+const winOrLoseMessage = userWinOrLose(userChoice, resultEvenOrOdd)
 alert(winOrLoseMessage);
+
+
+
+
+function sumOfNumber (userNum, robotNum) {
+    const result = userNum + robotNum;
+    return result
+}
+
+
+
+// Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+
+
+function evenOrOdd(number) {
+    let evenOrOddNumber;
+    if (number % 2 === 0) {
+        evenOrOddNumber = 'pari'
+    } else {
+        evenOrOddNumber = 'dispari'
+    }
+    return evenOrOddNumber
+}
