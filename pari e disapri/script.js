@@ -27,7 +27,7 @@ console.log('Numero computer', + pcNumber);
 
 
 // eseguiamo somma dei due numeri
-const resultNumbers = sumOfNumber (userNumber, pcNumber);
+const resultNumbers = sumOfNumber (userNumber + pcNumber);
 console.log(resultNumbers);
 
 
@@ -40,8 +40,8 @@ alert(winOrLoseMessage);
 
 
 
-function sumOfNumber (userNum, robotNum) {
-    const result = userNum + robotNum;
+function sumOfNumber (userNumber, pcNumber) {
+    const result = userNumber + pcNumber;
     return result
 }
 
