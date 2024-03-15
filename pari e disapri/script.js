@@ -13,5 +13,10 @@ while (userChoice !== 'pari' && userChoice !== 'dispari') {
     userChoice = prompt('Scegli tra pari e dispari');
 }
 
+//l'utente sceglie un numero tra 1 e 5
+
+const UserNumber = parseInt(prompt('Dimmi un numero da 1 a 5'));
+console.log('Numero user', + UserNumber);
+
 
 
